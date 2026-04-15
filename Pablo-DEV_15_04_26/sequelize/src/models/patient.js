@@ -21,10 +21,9 @@ const Patient = connection.define("Patient", {
         defaultValue: false
     }
 },
-    {
-        tableName: "patients",
-        timestamps: true
-    }
+{
+    tableName: "patients",
+    timestamps: true
+}
 );
-
 module.exports = Patient;
